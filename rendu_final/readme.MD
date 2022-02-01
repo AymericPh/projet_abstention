@@ -1,3 +1,16 @@
+#French version below
+
+The main objective of our project was to better understand the causes of abstention, which is a witness to a democratic crisis that makes people react at every election. We wanted to understand it in order to be able to propose solutions that a government could have implemented. When it came time to decide how to study this variable, we had several choices. Were we going to study it nationally and temporally or were we going to study it territorially? We chose the second option: there are fewer studies on this subject, and therefore potentially more things to discover. The idea was to build a dataset on territorial data, and then to regress and understand why some groups of people go to the polls less than others.
+
+What territorial breakdown should we choose? We had the choice between several scales: regions, departments or communes. Choosing a fine division would have provided us with a large amount of data, but at the cost of difficulties in aggregating and cleaning it. A regional breakdown would have allowed easy access to clean data, but the analysis of the causes of abstention would probably have lacked finesse. We therefore opted for a departmental breakdown. We started from scratch, with the entire dataset to be constructed. We chose to aggregate the abstention data from the last four presidential elections, and to add all the relevant characteristics we could find.
+
+We quickly realized the complexity of building such a dataset. For each feature or departmental characteristic, we had to find the data on the internet, do a thorough cleanup, and then ensure the compatibility of these data with our dataset under construction. Most of the data were public, but lacked quality and especially uniformity. Finally, the construction of the dataset and the summary map of our data took about 60% of our time.
+
+We still managed to build a usable and consistent dataset, but we were not able to add enough characteristics and features to refine our identification of the causes of abstention. (Indeed, many data were only available for a specific year, or for a specific department or regional group). As a result, our modeling and analysis of causes lacked performance. Many of the features present were poorly correlated with abstention, and highly correlated with each other.
+
+With hindsight, it appears that focusing on 2017 would have allowed us to add a large number of features fairly quickly (crime, number of sports centers, domestic violence figures etc.). This would have allowed us to identify the causes more thoroughly. We could even have put ourselves in the shoes of a government and proposed various territorial arrangements to optimize the ratio of cost of the measure to the decrease in abstention.
+
+
 L’objectif principal de notre projet était de mieux comprendre les causes de l’abstention, 
 témoin d’une crise démocratique qui fait réagir à chaque élection. 
 Nous voulions la comprendre pour pouvoir proposer des pistes de résolution qu’un gouvernement aurait pu mettre en oeuvre. 
